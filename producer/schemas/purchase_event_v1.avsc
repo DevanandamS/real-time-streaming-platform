@@ -1,0 +1,27 @@
+{
+  "type": "record",
+  "name": "PurchaseEvent",
+  "namespace": "com.deva.streaming.events",
+  "fields": [
+    {
+      "name": "event_id",
+      "type": "string"
+    },
+    {
+      "name": "user_id",
+      "type": "string"
+    },
+    {
+      "name": "product_id",
+      "type": "string"
+    },
+    {
+      "name": "amount",
+      "type": "double"
+    },
+    {
+      "name": "event_time",
+      "type": "string"
+    }
+  ]
+}
