@@ -37,7 +37,7 @@ def main():
 
     event = {
         "event_id": "evt_001",
-        # "user_id": "usr_001",
+        "user_id": "usr_001",
         "product_id": "prd_001",
         "amount": 99.99,
         "event_time": "2026-06-14T14:00:00Z",
